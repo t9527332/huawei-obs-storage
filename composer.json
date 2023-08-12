@@ -1,0 +1,33 @@
+{
+    "name": "jtz/huawei-obs-storage",
+    "description": "huawei obs filesystem storage for laravel 9+",
+    "keywords": ["huawei", "obs", "laravel", "filesystems", "storage"],
+    "homepage": "https://github.com/t9527332/huawei-obs-storage.git",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Jtz\\HuaweiObsStorage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jtz",
+            "email": "wangtao6277@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/filesystem": "^9.33|^10",
+        "illuminate/support": "^9.33|^10",
+        "league/flysystem": "^3.8.0",
+        "nesbot/carbon": "^2.62.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jtz\\HuaweiOBS\\Providers\\HuaweiObsServiceProvider"
+            ]
+        }
+    }
+}
