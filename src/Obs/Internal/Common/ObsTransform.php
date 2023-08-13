@@ -2,7 +2,7 @@
 
 namespace Jtz\HuaweiObsStorage\Obs\Internal\Common;
 
-use luoyy\HuaweiOBS\Obs\ObsClient;
+use Jtz\HuaweiObsStorage\Obs\ObsClient;
 
 class ObsTransform implements ITransform
 {
